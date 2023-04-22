@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+<header>
+    <h1>Vacation Destination Wish List</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt deserunt et inventore cum commodi nihi</p>
+</header>
+
+<main>
+    <form id="destination_details_forms">
+        <label for="name">Destination Name</label>
+        <input type="text" id="name"  placeholder="Provide a name for the destination" required>
+
+        <label for="location">Destination Location</label>
+        <input type="text" id="location" placeholder="Where us the destination location" required>
+
+        <label for="photo">Photo</label>
+        <input type="url" id="photo" placeholder="Provide a url for the photo">
+
+        <label for="description">Destination Description</label>
+        <textarea id="description" placeholder="Describe the destination"></textarea>
+
+        <button type="submit">Add To List</button>
+    </form>
+    <article>
+    <h2 id="title">Enter Destination Details</h2>
+    <div id="destinations_container">
+      
+    </div>
+    </article>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
