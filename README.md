@@ -8,6 +8,11 @@ This web app allows you to create a list of destinations you want to visit and d
 
 To use this app, simply download or clone the code and open the `index.html` file in your web browser.
 
+Technologies Used
+HTML
+CSS
+JavaScript
+
 ## How to use
 
 1. Enter the destination details (name, location, photo URL, and description) in the form.
